@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="joinRoom">
+      <input type="text" id="roomId" placeholder="input roomId" />
+      <input type="text" id="userName" placeholder="input userName" />
+      <button onclick="joinRoom()">入室</button>
+    </div>
+    <div class="log"><ul id="log"></ul></div>
+    <div id="sendForm">
+      <input type="text" id="message" placeholder="input message" />
+      <button onclick="sendMessage()">送信</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
